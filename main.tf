@@ -11,7 +11,6 @@ variable "create_backup_vault" {
 
 variable "create_backup_vault_policy" {
   type    = bool
-  default = true
 }
 
 resource "aws_backup_vault" "source_vault" {
